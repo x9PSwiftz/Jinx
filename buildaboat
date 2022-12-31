@@ -3,19 +3,8 @@ repeat wait() until game.Players
 repeat wait() until game.Players.LocalPlayer
 repeat wait() until game.ReplicatedStorage
 
-function deobfuscate(input)
-    local output = ""
-    for i = 1, #input do
-      output = output .. string.char(bit32.bxor(string.byte(input:sub(i, i)), i))
-    end
-    return output
-end
-pcall(function()getgenv().asilfjjipoj1ijo_rezyX = deobfuscate(getgenv().asilfjjipoj1ijo_rezyX)end)
-wait(2)
 if getgenv().asilfjjipoj1ijo_rezyX=="pijasfij108" then
      print("Success ✅")
-elseif getgenv().asilfjjipoj1ijo_rezyX=="qkie460{oca"then
-     print("Wrong ❌")
 else
     print("Wrong ❌")
 end
