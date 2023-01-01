@@ -1,0 +1,6 @@
+return {
+  bloxfruit = true,
+  buildaboat = true,
+  murder = true,
+  projectnewworld = true
+}
